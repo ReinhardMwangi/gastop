@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "617715841389",
+    "firebase_url": "https://gastop-cfe1d-default-rtdb.firebaseio.com",
+    "project_id": "gastop-cfe1d",
+    "storage_bucket": "gastop-cfe1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617715841389:android:46583797b2ef24e1120264",
+        "android_client_info": {
+          "package_name": "com.example.gasstop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617715841389-7l3ajdrgc426lo6r3u89nqnao1evapeh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSNNgdnKLmc20ZWLaT8csP8hLbH30ZD80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617715841389-7l3ajdrgc426lo6r3u89nqnao1evapeh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

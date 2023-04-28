@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/supra"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/mBtnSea"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/img_11"
+        app:backgroundTint="#00FFFFFF"
+        app:backgroundTintMode="src_over"
+        app:layout_constraintBottom_toTopOf="@+id/mBtnTotal"
+        app:layout_constraintEnd_toStartOf="@+id/mBtnKgas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mBtnKgas"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="51dp"
+        android:background="@drawable/img_10"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toTopOf="@+id/mBtnAfri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mBtnSea"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mBtnTotal"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/img_2"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toTopOf="@+id/mBtnBurner"
+        app:layout_constraintEnd_toStartOf="@+id/mBtnAfri"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mBtnSea" />
+
+    <Button
+        android:id="@+id/mBtnAfri"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/img_7"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toTopOf="@+id/mBtnPro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mBtnTotal"
+        app:layout_constraintTop_toBottomOf="@+id/mBtnKgas" />
+
+    <Button
+        android:id="@+id/mBtnBurner"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="79dp"
+        android:background="@drawable/img_12"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/mBtnPro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mBtnTotal" />
+
+    <Button
+        android:id="@+id/mBtnPro"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/img_5"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mBtnBurner"
+        app:layout_constraintTop_toBottomOf="@+id/mBtnAfri" />
+</androidx.constraintlayout.widget.ConstraintLayout>

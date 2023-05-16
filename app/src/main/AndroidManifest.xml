@@ -12,16 +12,25 @@
         android:theme="@style/Theme.GasStop"
         tools:targetApi="31">
         <activity
-            android:name=".LoginActivity"
+            android:name=".SplashActivity"
             android:exported="false" />
         <activity
-            android:name=".RegisterActivity"
+            android:name=".AdminActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AddGasActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AddDepotActivity"
             android:exported="false" />
         <activity
-            android:name=".display_activity"
+
+            android:name=".AddcylindersActivity"
             android:exported="false" />
         <activity
-            android:name=".activity_register"
+            android:name=".BuyActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -31,6 +40,18 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false">
+
         </activity>
     </application>
 

@@ -14,15 +14,15 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btnLogin = findViewById(R.id.mBtnLogin)
-        btnSignup = findViewById(R.id.mBtnSubmit)
+        btnSignup = findViewById(R.id.mBtnSignup)
 
         btnLogin.setOnClickListener {
             val sajili = Intent(this@MainActivity,LoginActivity::class.java)
             startActivity(sajili)
         }
         btnSignup.setOnClickListener {
-            val sajili = Intent(this@MainActivity,RegisterActivity::class.java)
-            startActivity(sajili)
+            val andikisha = Intent(this@MainActivity,RegisterActivity::class.java)
+            startActivity(andikisha)
         }
     }
 }

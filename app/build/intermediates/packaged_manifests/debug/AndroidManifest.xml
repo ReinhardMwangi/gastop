@@ -29,16 +29,22 @@
         android:testOnly="true"
         android:theme="@style/Theme.GasStop" >
         <activity
-            android:name="com.example.gasstop.display_activity"
+            android:name="com.example.gasstop.SplashActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.gasstop.activity_register"
+            android:name="com.example.gasstop.AdminActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.gasstop.CustomerActivity"
+            android:name="com.example.gasstop.AddGasActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.gasstop.SupplierActivity"
+            android:name="com.example.gasstop.AddDepotActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gasstop.AddcylindersActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gasstop.BuyActivity"
             android:exported="false" />
         <activity
             android:name="com.example.gasstop.MainActivity"
@@ -49,6 +55,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.gasstop.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gasstop.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gasstop.HomeActivity"
+            android:exported="false" >
+        </activity>
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
@@ -58,13 +74,19 @@
                 android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
-                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
 

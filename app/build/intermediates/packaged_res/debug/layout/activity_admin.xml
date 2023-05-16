@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+    <Button
+        android:id="@+id/mBtnAddDepot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="53dp"
+        android:text="ADD DEPOT"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mBtnViewDepot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="24dp"
+        android:text="VIEW DEPOT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mBtnAddGasBrand"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="51dp"
+        android:text="ADD GAS BRAND"
+        app:layout_constraintBaseline_toBaselineOf="@+id/mBtnViewGasBrands"
+        app:layout_constraintEnd_toStartOf="@+id/mBtnViewGasBrands"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/mBtnViewGasBrands"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="16dp"
+        android:text="VIEW GAS BRANDS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mBtnAddGasBrand"
+        app:layout_constraintTop_toBottomOf="@+id/mBtnViewDepot" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

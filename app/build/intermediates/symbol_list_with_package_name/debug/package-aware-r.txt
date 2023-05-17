@@ -3187,6 +3187,7 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id btn_choose_image
 id btn_upload_image
+id button
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3336,9 +3337,11 @@ id list_item
 id m3_side_sheet
 id mBtnAddDepot
 id mBtnAddGasBrand
+id mBtnBuy
 id mBtnLogin
 id mBtnMpesa
 id mBtnMpesa1
+id mBtnRefill
 id mBtnSignup
 id mBtnSupplier
 id mBtnSupplier1
@@ -3728,12 +3731,12 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_gas
-layout activity_addcylinders
 layout activity_admin
 layout activity_depot
 layout activity_home
 layout activity_login
 layout activity_main
+layout activity_purchase
 layout activity_refill
 layout activity_register
 layout activity_splash
@@ -3860,6 +3863,7 @@ string bottomsheet_action_expand
 string bottomsheet_action_expand_halfway
 string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
+string buy
 string call_notification_answer_action
 string call_notification_answer_video_action
 string call_notification_decline_action

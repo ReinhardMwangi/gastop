@@ -41,7 +41,7 @@
             android:name="com.example.gasstop.AddDepotActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.gasstop.AddcylindersActivity"
+            android:name="com.example.gasstop.PurchaseActivity"
             android:exported="false" />
         <activity
             android:name="com.example.gasstop.BuyActivity"

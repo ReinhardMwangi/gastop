@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GasStop</string>
+    <string name="buy">BUY</string>
 </resources>

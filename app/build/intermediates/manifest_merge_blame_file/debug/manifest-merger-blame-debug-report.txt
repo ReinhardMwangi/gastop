@@ -74,8 +74,8 @@
 42-->/home/emobilis/AndroidStudioProjects/GasStop/app/src/main/AndroidManifest.xml:27:13-37
 43        <activity
 43-->/home/emobilis/AndroidStudioProjects/GasStop/app/src/main/AndroidManifest.xml:28:9-31:40
-44            android:name="com.example.gasstop.AddcylindersActivity"
-44-->/home/emobilis/AndroidStudioProjects/GasStop/app/src/main/AndroidManifest.xml:30:13-49
+44            android:name="com.example.gasstop.PurchaseActivity"
+44-->/home/emobilis/AndroidStudioProjects/GasStop/app/src/main/AndroidManifest.xml:30:13-45
 45            android:exported="false" />
 45-->/home/emobilis/AndroidStudioProjects/GasStop/app/src/main/AndroidManifest.xml:31:13-37
 46        <activity

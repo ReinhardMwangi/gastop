@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
 import android.widget.ListView
 import android.widget.Toast
 import com.google.firebase.database.DataSnapshot
@@ -14,10 +15,29 @@ import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 
 class HomeActivity : AppCompatActivity() {
+    lateinit var btnBuy: Button
+    lateinit var btnRefill: Button
     lateinit var mListGasses: ListView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
+
+        btnBuy = findViewById(R.id.mBtnBuy)
+        btnRefill = findViewById(R.id.mBtnRefill)
+
+
+        btnBuy.setOnClickListener {
+            val jaza = Intent(this@HomeActivity,BuyActivity::class.java)
+            startActivity(jaza)
+        }
+
+        btnRefill.setOnClickListener {
+            val jaza = Intent(this@HomeActivity,RefillActivity::class.java)
+            startActivity(jaza)
+        }
+
+
+
         mListGasses = findViewById(R.id.mListGasses)
         var gasses:ArrayList<Gasupload> = ArrayList()
         var myAdapter = CarsAdapter(applicationContext,gasses)

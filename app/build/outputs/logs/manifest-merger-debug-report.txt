@@ -15,9 +15,9 @@ MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/emobilis/.gradl
 MERGED from [androidx.appcompat:appcompat:1.6.1] /home/emobilis/.gradle/caches/transforms-3/ed3819af41362406a8a7ff1e1744c148/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:glide:4.15.1] /home/emobilis/.gradle/caches/transforms-3/dd934ceeb61bf316af4083858725b40e/transformed/glide-4.15.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/emobilis/.gradle/caches/transforms-3/6a91b9a0f6e238f89efe2d836e0a4023/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database:20.2.1] /home/emobilis/.gradle/caches/transforms-3/2dbaf994db23865938512b7fd593fee4/transformed/firebase-database-20.2.1/AndroidManifest.xml:15:1-37:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/emobilis/.gradle/caches/transforms-3/679e5c812099fd72c74208dbc804f898/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.play:integrity:1.1.0] /home/emobilis/.gradle/caches/transforms-3/0344a659d14e8379817b841ac53df8c5/transformed/integrity-1.1.0/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.firebase:firebase-database:20.2.1] /home/emobilis/.gradle/caches/transforms-3/2dbaf994db23865938512b7fd593fee4/transformed/firebase-database-20.2.1/AndroidManifest.xml:15:1-37:12
 MERGED from [com.google.firebase:firebase-storage:20.2.0] /home/emobilis/.gradle/caches/transforms-3/6fb2446ebf92dafddb4c58b851923f3c/transformed/firebase-storage-20.2.0/AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/emobilis/.gradle/caches/transforms-3/41f7f3afa62f1a0fb45ac3058a722802/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/emobilis/.gradle/caches/transforms-3/17aeedf0a74c8045ad2b1382487dd87a/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
@@ -100,10 +100,10 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/emobilis/.g
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/emobilis/.gradle/caches/transforms-3/bfcc302b16a74981c37b53f17bd6fe91/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:glide:4.15.1] /home/emobilis/.gradle/caches/transforms-3/dd934ceeb61bf316af4083858725b40e/transformed/glide-4.15.1/AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:glide:4.15.1] /home/emobilis/.gradle/caches/transforms-3/dd934ceeb61bf316af4083858725b40e/transformed/glide-4.15.1/AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.play:integrity:1.1.0] /home/emobilis/.gradle/caches/transforms-3/0344a659d14e8379817b841ac53df8c5/transformed/integrity-1.1.0/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.play:integrity:1.1.0] /home/emobilis/.gradle/caches/transforms-3/0344a659d14e8379817b841ac53df8c5/transformed/integrity-1.1.0/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.firebase:firebase-database:20.2.1] /home/emobilis/.gradle/caches/transforms-3/2dbaf994db23865938512b7fd593fee4/transformed/firebase-database-20.2.1/AndroidManifest.xml:27:5-35:19
 MERGED from [com.google.firebase:firebase-database:20.2.1] /home/emobilis/.gradle/caches/transforms-3/2dbaf994db23865938512b7fd593fee4/transformed/firebase-database-20.2.1/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.play:integrity:1.1.0] /home/emobilis/.gradle/caches/transforms-3/0344a659d14e8379817b841ac53df8c5/transformed/integrity-1.1.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.1.0] /home/emobilis/.gradle/caches/transforms-3/0344a659d14e8379817b841ac53df8c5/transformed/integrity-1.1.0/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.firebase:firebase-storage:20.2.0] /home/emobilis/.gradle/caches/transforms-3/6fb2446ebf92dafddb4c58b851923f3c/transformed/firebase-storage-20.2.0/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-storage:20.2.0] /home/emobilis/.gradle/caches/transforms-3/6fb2446ebf92dafddb4c58b851923f3c/transformed/firebase-storage-20.2.0/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/emobilis/.gradle/caches/transforms-3/41f7f3afa62f1a0fb45ac3058a722802/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
@@ -172,12 +172,12 @@ ADDED from /home/emobilis/AndroidStudioProjects/GasStop/app/src/main/AndroidMani
 		ADDED from /home/emobilis/AndroidStudioProjects/GasStop/app/src/main/AndroidManifest.xml:27:13-37
 	android:name
 		ADDED from /home/emobilis/AndroidStudioProjects/GasStop/app/src/main/AndroidManifest.xml:26:13-45
-activity#com.example.gasstop.AddcylindersActivity
+activity#com.example.gasstop.PurchaseActivity
 ADDED from /home/emobilis/AndroidStudioProjects/GasStop/app/src/main/AndroidManifest.xml:28:9-31:40
 	android:exported
 		ADDED from /home/emobilis/AndroidStudioProjects/GasStop/app/src/main/AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from /home/emobilis/AndroidStudioProjects/GasStop/app/src/main/AndroidManifest.xml:30:13-49
+		ADDED from /home/emobilis/AndroidStudioProjects/GasStop/app/src/main/AndroidManifest.xml:30:13-45
 activity#com.example.gasstop.BuyActivity
 ADDED from /home/emobilis/AndroidStudioProjects/GasStop/app/src/main/AndroidManifest.xml:32:9-34:40
 	android:exported
@@ -244,12 +244,12 @@ MERGED from [com.github.bumptech.glide:glide:4.15.1] /home/emobilis/.gradle/cach
 MERGED from [com.github.bumptech.glide:glide:4.15.1] /home/emobilis/.gradle/caches/transforms-3/dd934ceeb61bf316af4083858725b40e/transformed/glide-4.15.1/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/emobilis/.gradle/caches/transforms-3/6a91b9a0f6e238f89efe2d836e0a4023/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/emobilis/.gradle/caches/transforms-3/6a91b9a0f6e238f89efe2d836e0a4023/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database:20.2.1] /home/emobilis/.gradle/caches/transforms-3/2dbaf994db23865938512b7fd593fee4/transformed/firebase-database-20.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:20.2.1] /home/emobilis/.gradle/caches/transforms-3/2dbaf994db23865938512b7fd593fee4/transformed/firebase-database-20.2.1/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/emobilis/.gradle/caches/transforms-3/679e5c812099fd72c74208dbc804f898/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/emobilis/.gradle/caches/transforms-3/679e5c812099fd72c74208dbc804f898/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.play:integrity:1.1.0] /home/emobilis/.gradle/caches/transforms-3/0344a659d14e8379817b841ac53df8c5/transformed/integrity-1.1.0/AndroidManifest.xml:4:5-44
 MERGED from [com.google.android.play:integrity:1.1.0] /home/emobilis/.gradle/caches/transforms-3/0344a659d14e8379817b841ac53df8c5/transformed/integrity-1.1.0/AndroidManifest.xml:4:5-44
-MERGED from [com.google.firebase:firebase-database:20.2.1] /home/emobilis/.gradle/caches/transforms-3/2dbaf994db23865938512b7fd593fee4/transformed/firebase-database-20.2.1/AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.firebase:firebase-database:20.2.1] /home/emobilis/.gradle/caches/transforms-3/2dbaf994db23865938512b7fd593fee4/transformed/firebase-database-20.2.1/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-storage:20.2.0] /home/emobilis/.gradle/caches/transforms-3/6fb2446ebf92dafddb4c58b851923f3c/transformed/firebase-storage-20.2.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-storage:20.2.0] /home/emobilis/.gradle/caches/transforms-3/6fb2446ebf92dafddb4c58b851923f3c/transformed/firebase-storage-20.2.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/emobilis/.gradle/caches/transforms-3/41f7f3afa62f1a0fb45ac3058a722802/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41

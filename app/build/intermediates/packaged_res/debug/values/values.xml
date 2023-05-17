@@ -8,6 +8,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">GasStop</string>
+    <string name="buy">BUY</string>
     <string name="default_web_client_id" translatable="false">971656713601-1a0trqlj67j6983i3u86fgmju9ij65kd.apps.googleusercontent.com</string>
     <string name="gcm_defaultSenderId" translatable="false">971656713601</string>
     <string name="google_api_key" translatable="false">AIzaSyAn7j7EV-ZkZpYZOZZNrJND3m01i0dtBgc</string>

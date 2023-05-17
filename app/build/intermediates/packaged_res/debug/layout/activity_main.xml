@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/zoza"
+    android:background="@drawable/img_1"
     tools:context=".MainActivity">
 
     <Button
@@ -33,7 +33,7 @@
         android:layout_height="99dp"
         android:layout_marginTop="4dp"
         android:text="WELCOME TO GASTOP"
-        android:textColor="#12E11B"
+        android:textColor="#5718C8"
         android:textSize="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.403"
